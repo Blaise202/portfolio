@@ -1,454 +1,292 @@
 <!DOCTYPE html>
-<html
-  lang="en"
-  style="scroll-behavior: smooth"
->
-  <head>
-    <meta charset="UTF-8" />
-    <link
-      href="profile/blaise.jpg"
-      rel="icon"
-      type="image/svg+xml"
-    />
-    <link
-      rel="stylesheet"
-      href="styles.css"
-    />
-    <meta
-      content="width=device-width, initial-scale=1.0"
-      name="viewport"
-    />
-    <title>Blaise Izerimana | Software Developer</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      href="https://fonts.googleapis.com"
-      rel="preconnect"
-    />
-    <link
-      crossorigin
-      href="https://fonts.gstatic.com"
-      rel="preconnect"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-  </head>
+<html lang="en" style="scroll-behavior: smooth">
 
-  <body
-    class="bg-[#1C1C1C] text-gray-200 opacity-0 transition-opacity duration-1000 ease-in"
-  >
-    <!-- Header -->
-    <header
-      class="sticky top-0 z-50 bg-transparent transition-all duration-300"
-      id="header"
-    >
-      <nav
-        class="header mx-auto flex max-w-7xl items-center justify-between p-4"
-      >
-        <div class="hidden items-center space-x-12 md:flex">
-          <a
-            class="font-medium text-gray-300 transition-colors duration-300 hover:text-lime-400"
-            href="#home"
-            >Home</a
-          >
-          <a
-            class="font-medium text-gray-300 transition-colors duration-300 hover:text-lime-400"
-            href="#about"
-            >About</a
-          >
-          <a
-            class="font-medium text-gray-300 transition-colors duration-300 hover:text-lime-400"
-            href="#skills"
-            >Skills</a
-          >
-          <a
-            class="font-medium text-gray-300 transition-colors duration-300 hover:text-lime-400"
-            href="#projects"
-            >Recent projects</a
-          >
-          <a
-            class="font-medium text-gray-300 transition-colors duration-300 hover:text-lime-400"
-            href="#contact"
-            >Get In Touch</a
-          >
-        </div>
-        <div class="ml-auto flex items-center space-x-6">
-          <a
-            rel="noopener noreferrer"
-            class="text-gray-300 transition-all duration-300 hover:scale-110 hover:text-lime-400"
-            href="https://www.linkedin.com/in/izerimana-blaise-90222530a/"
-            target="_blank"
-          >
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a
-            rel="noopener noreferrer"
-            class="text-gray-300 transition-all duration-300 hover:scale-110 hover:text-lime-400"
-            href="https://github.com/Blaise202"
-            target="_blank"
-          >
-            <i class="fab fa-github"></i>
-          </a>
-          <a
-            rel="noopener noreferrer"
-            class="text-gray-300 transition-all duration-300 hover:scale-110 hover:text-lime-400"
-            href="mailto:izerimanab74@gmail.com"
-            target="_blank"
-          >
-            <i class="fas fa-envelope"></i>
-          </a>
-          <a
-            class="text-gray-300 transition-all duration-300 hover:scale-110 hover:text-lime-400"
-            href="https://www.instagram.com/a_m_blaise/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <i class="fas fa-instagram-square"></i>
-          </a>
-        </div>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <link href="profile/blaise.jpg" rel="icon" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Blaise Izerimana | Software Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+   rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
 
-    <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <!-- Hero Section -->
-      <section
-        class="flex min-h-screen items-center justify-center pt-n20 py-n20"
-        id="home"
-      >
-        <div
-          class="container mx-auto flex flex-col items-center justify-between gap-10 md:flex-row"
-        >
-          <div class="flex items-center gap-8 md:gap-12">
-            <div class="hidden items-center justify-center md:flex">
-              <h2
-                class="rotate-180 whitespace-nowrap text-3xl font-bold uppercase tracking-[10px] [writing-mode:vertical-rl]"
-              >
-                <span class="text-white">Software </span>
-                <span class="text-glow text-lime-400">Developer</span>
-              </h2>
-            </div>
-            <div class="text-center md:text-left">
-              <h1 class="mb-4 text-5xl font-extrabold text-white md:text-7xl">
-                Blaise Izerimana
-              </h1>
-              <p
-                class="mb-8 max-w-lg text-lg text-gray-400 md:text-xl ibm-plex"
-              >
-                A passionate full stack developer dedicated to building scalable
-                web solutions and always striving to turn complex problems into
-                simple, elegant code.
-              </p>
-              <a
-                class="lime-glow lime-glow-hover inline-block transform rounded-lg bg-lime-500 px-8 py-3 text-lg font-bold text-gray-900 transition-all duration-300 hover:scale-105 hover:bg-lime-400"
-                href="#resume"
-              >
-                My Resume &rsaquo;
-              </a>
-            </div>
-          </div>
-          <div class="relative mt-10 md:mt-0">
-            <div
-              class="lime-glow h-64 w-64 overflow-hidden rounded-full bg-lime-500 md:h-80 md:w-80"
-            >
-              <img
-                alt="Blaise Izerimana"
-                class="h-full w-full scale-110 object-cover object-top"
-                src="profile/blaise.jpg"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+<body class="bg-[#1C1C1C] text-gray-200 opacity-0 transition-opacity duration-1000 ease-in">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-transparent transition-all duration-300" id="header">
+    <nav class="header mx-auto flex max-w-7xl items-center justify-between p-4">
+      <div class="hidden items-center space-x-12 md:flex">
+        <a class="font-medium text-gray-300 transition-colors duration-300 hover:text-lime-400" href="#home">Home</a>
+        <a class="font-medium text-gray-300 transition-colors duration-300 hover:text-lime-400" href="#about">About</a>
+        <a class="font-medium text-gray-300 transition-colors duration-300 hover:text-lime-400"
+         href="#skills">Skills</a>
+        <a class="font-medium text-gray-300 transition-colors duration-300 hover:text-lime-400" href="#projects">Recent
+          projects</a>
+        <a class="font-medium text-gray-300 transition-colors duration-300 hover:text-lime-400" href="#contact">Get In
+          Touch</a>
+      </div>
+      <div class="ml-auto flex items-center space-x-6">
+        <a rel="noopener noreferrer"
+         class="text-gray-300 transition-all duration-300 hover:scale-110 hover:text-lime-400"
+         href="https://www.linkedin.com/in/izerimana-blaise-90222530a/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a rel="noopener noreferrer"
+         class="text-gray-300 transition-all duration-300 hover:scale-110 hover:text-lime-400"
+         href="https://github.com/Blaise202" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a rel="noopener noreferrer"
+         class="text-gray-300 transition-all duration-300 hover:scale-110 hover:text-lime-400"
+         href="mailto:izerimanab74@gmail.com" target="_blank">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a class="text-gray-300 transition-all duration-300 hover:scale-110 hover:text-lime-400"
+         href="https://www.instagram.com/a_m_blaise/" rel="noopener noreferrer" target="_blank">
+          <i class="fas fa-instagram-square"></i>
+        </a>
+      </div>
+    </nav>
+  </header>
 
-      <!-- About Section -->
-      <section
-        class="py-24"
-        id="about"
-      >
-        <div class="mb-12 text-center">
-          <h2 class="text-4xl font-bold md:text-5xl">
-            About <span class="text-glow text-lime-400">ME!</span>
-          </h2>
+  <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <!-- Hero Section -->
+    <section class="flex min-h-screen items-center justify-center pt-n20 py-n20" id="home">
+      <div class="container mx-auto flex flex-col items-center justify-between gap-10 md:flex-row">
+        <div class="flex items-center gap-8 md:gap-12">
+          <div class="hidden items-center justify-center md:flex">
+            <h2
+             class="rotate-180 whitespace-nowrap text-3xl font-bold uppercase tracking-[10px] [writing-mode:vertical-rl]">
+              <span class="text-white">Software </span>
+              <span class="text-glow text-lime-400">Developer</span>
+            </h2>
+          </div>
+          <div class="text-center md:text-left">
+            <h1 class="mb-4 text-5xl font-extrabold text-white md:text-7xl">
+              Blaise Izerimana
+            </h1>
+            <p class="mb-8 max-w-lg text-lg text-gray-400 md:text-xl ibm-plex">
+              A passionate full stack developer dedicated to building scalable
+              web solutions and always striving to turn complex problems into
+              simple, elegant code.
+            </p>
+            <a
+             class="lime-glow lime-glow-hover inline-block transform rounded-lg bg-lime-500 px-8 py-3 text-lg font-bold text-gray-900 transition-all duration-300 hover:scale-105 hover:bg-lime-400"
+             href="/Blaise_Izerimana_Resume.pdf" target="_blank">
+              My Resume &rsaquo;
+            </a>
+          </div>
         </div>
-        <div
-          class="mx-auto max-w-4xl space-y-6 text-center text-lg text-gray-300"
-        >
-          <p>
-            Hi there, I am
-            <span class="font-bold text-white">Blaise IZERIMANA</span> a
-            computer sciences student at Ashesi University and former
-            <span class="font-bold text-white">Ireme Technologies Intern</span>
-            in software development with proficient skills in various
-            programming languages that I use to develop solid frontend designs
-            and I build desktop applications with back-end technologies.
-          </p>
-          <p>
-            I'm capable of building big projects all alone but I enjoy the most
-            working in teams in most of my projects because that's where I
-            <span class="font-bold text-lime-400">gain more skills</span> and
-            grow bigger by learning from each other,
-            <span class="font-bold text-lime-400">correcting</span> one
-            another's mistakes,
-            <span class="font-bold text-lime-400">collaborating</span> to get
-            things done faster, and building
-            <span class="font-bold text-lime-400">connections</span>.
-          </p>
-          <p>
-            By now I am open to any job opportunities where I can contribute,
-            learn and grow. If you have any opportunity that matches my skills,
-            please don't to hesitate to reach out.
-          </p>
+        <div class="relative mt-10 md:mt-0">
+          <div class="lime-glow h-64 w-64 overflow-hidden rounded-full bg-lime-500 md:h-80 md:w-80">
+            <img alt="Blaise Izerimana" class="h-full w-full scale-110 object-cover object-top"
+             src="profile/blaise.jpg" />
+          </div>
         </div>
-        <div class="mt-12 flex justify-center gap-6">
-          <a
-            class="lime-glow lime-glow-hover inline-block transform rounded-lg bg-lime-500 px-8 py-3 text-lg font-bold text-gray-900 transition-all duration-300 hover:scale-105 hover:bg-lime-400"
-            href="#cv"
-          >
-            Download CV &rsaquo;
-          </a>
-          <a
-            class="inline-block transform rounded-lg bg-gray-700 px-8 py-3 text-lg font-bold text-white transition-all duration-300 hover:scale-105 hover:bg-gray-600"
-            href="#contact"
-          >
-            Hire Me &rsaquo;
-          </a>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Skills Section -->
-      <section
-        class="rounded-xl bg-gray-900/50 py-24"
-        id="skills"
-      >
-        <div class="mb-12 text-center">
-          <h2 class="text-4xl font-bold md:text-5xl">Skills</h2>
-        </div>
-        <div
-          class="mx-auto flex max-w-4xl flex-wrap items-center justify-center gap-x-12 gap-y-10"
-        >
-          <div class="group flex flex-col items-center gap-3">
-            <div
-              class="h-16 w-16 text-gray-400 skills-icons transition-all duration-300 group-hover:scale-110 group-hover:text-lime-400"
-            >
-              <i class="fab hover:text-lime-500 fa-laravel"></i>
-            </div>
-            <span
-              class="text-sm font-medium text-gray-400 transition-colors duration-300 group-hover:text-white"
-              >Laravel</span
-            >
-          </div>
-          <div class="group flex flex-col items-center gap-3">
-            <div
-              class="h-16 w-16 text-gray-400 skills-icons transition-all duration-300 group-hover:scale-110 group-hover:text-lime-400"
-            >
-              <i class="fab hover:text-lime-500 fa-php"></i>
-            </div>
-            <span
-              class="text-sm font-medium text-gray-400 transition-colors duration-300 group-hover:text-white"
-              >PHP</span
-            >
-          </div>
-          <div class="group flex flex-col items-center gap-3">
-            <div
-              class="h-16 w-16 text-gray-400 skills-icons transition-all duration-300 group-hover:scale-110 group-hover:text-lime-400"
-            >
-              <i class="fab hover:text-lime-500 fa-js"></i>
-            </div>
-            <span
-              class="text-sm font-medium text-gray-400 transition-colors duration-300 group-hover:text-white"
-              >JavaScript</span
-            >
-          </div>
-          <div class="group flex flex-col items-center gap-3">
-            <div
-              class="h-16 w-16 text-gray-400 skills-icons transition-all duration-300 group-hover:scale-110 group-hover:text-lime-400"
-            >
-              <i class="fab hover:text-lime-500 fa-vuejs"></i>
-            </div>
-            <span
-              class="text-sm font-medium text-gray-400 transition-colors duration-300 group-hover:text-white"
-              >Vue.js</span
-            >
-          </div>
-          <div class="group flex flex-col items-center gap-3">
-            <div
-              class="h-16 w-16 text-gray-400 skills-icons transition-all duration-300 group-hover:scale-110 group-hover:text-lime-400"
-            >
-              <i class="fab hover:text-lime-500 fa-node"></i>
-            </div>
-            <span
-              class="text-sm font-medium text-gray-400 transition-colors duration-300 group-hover:text-white"
-              >Node.js</span
-            >
-          </div>
-          <div class="group flex flex-col items-center gap-3">
-            <div
-              class="h-16 w-16 text-gray-400 skills-icons transition-all duration-300 group-hover:scale-110 group-hover:text-lime-400"
-            >
-              <i class="fab hover:text-lime-500 fa-python"></i>
-            </div>
-            <span
-              class="text-sm font-medium text-gray-400 transition-colors duration-300 group-hover:text-white"
-              >Python</span
-            >
-          </div>
-          <div class="group flex flex-col items-center gap-3">
-            <div
-              class="h-16 w-16 text-gray-400 skills-icons transition-all duration-300 group-hover:scale-110 group-hover:text-lime-400"
-            >
-              <i class="fab hover:text-lime-500 fa-css3-alt"></i>
-            </div>
-            <span
-              class="text-sm font-medium text-gray-400 transition-colors duration-300 group-hover:text-white"
-              >CSS3</span
-            >
-          </div>
-        </div>
-      </section>
+    <!-- About Section -->
+    <section class="py-24" id="about">
+      <div class="mb-12 text-center">
+        <h2 class="text-4xl font-bold md:text-5xl">
+          About <span class="text-glow text-lime-400">ME!</span>
+        </h2>
+      </div>
+      <div class="mx-auto max-w-4xl space-y-6 text-center text-lg text-gray-300">
+        <p>
+          Hi there, I am
+          <span class="font-bold text-white">Blaise IZERIMANA</span> a
+          computer sciences student at Ashesi University and former
+          <span class="font-bold text-white">Ireme Technologies Intern</span>
+          in software development with proficient skills in various
+          programming languages that I use to develop solid frontend designs
+          and I build desktop applications with back-end technologies.
+        </p>
+        <p>
+          I'm capable of building big projects all alone but I enjoy the most
+          working in teams in most of my projects because that's where I
+          <span class="font-bold text-lime-400">gain more skills</span> and
+          grow bigger by learning from each other,
+          <span class="font-bold text-lime-400">correcting</span> one
+          another's mistakes,
+          <span class="font-bold text-lime-400">collaborating</span> to get
+          things done faster, and building
+          <span class="font-bold text-lime-400">connections</span>.
+        </p>
+        <p>
+          By now I am open to any job opportunities where I can contribute,
+          learn and grow. If you have any opportunity that matches my skills,
+          please don't to hesitate to reach out.
+        </p>
+      </div>
+      <div class="mt-12 flex justify-center gap-6">
+        <a
+         class="lime-glow lime-glow-hover inline-block transform rounded-lg bg-lime-500 px-8 py-3 text-lg font-bold text-gray-900 transition-all duration-300 hover:scale-105 hover:bg-lime-400"
+         href="#cv">
+          Download CV &rsaquo;
+        </a>
+        <a
+         class="inline-block transform rounded-lg bg-gray-700 px-8 py-3 text-lg font-bold text-white transition-all duration-300 hover:scale-105 hover:bg-gray-600"
+         href="#contact">
+          Hire Me &rsaquo;
+        </a>
+      </div>
+    </section>
 
-      <!-- Projects Section -->
-      <section
-        class="py-24"
-        id="projects"
-      >
-        <div class="mb-12 text-center">
-          <h2 class="text-4xl font-bold md:text-5xl">
-            Recent <span class="text-glow text-lime-400">Projects!</span>
-          </h2>
-        </div>
-        <div class="carousel-container relative mx-auto max-w-4xl">
-          <div class="overflow-hidden rounded-lg shadow-2xl shadow-lime-900/30">
-            <div
-              class="flex"
-              id="carousel-track"
-            >
-              <img
-                alt="Ireme Hospitality"
-                class="h-auto w-full flex-shrink-0"
-                src="projects/ireme-supermarket/ireme-supermarket.png"
-              />
-              <img
-                alt="Data Dashboard"
-                class="h-auto w-full flex-shrink-0"
-                src="projects/UCEP/Landing Page.png"
-              />
-              <img
-                alt="Data Dashboard"
-                class="h-auto w-full flex-shrink-0"
-                src="projects/byuzuye/image.png"
-              />
-            </div>
-          </div>
-          <button
-            aria-label="Previous project"
-            class="lime-glow-hover absolute left-0 top-1/2 flex h-12 w-12 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-lime-500/80 text-gray-900 transition-all duration-300 hover:bg-lime-500"
-            id="carousel-prev"
-          >
-            &lt;
-          </button>
-          <button
-            aria-label="Next project"
-            class="lime-glow-hover absolute right-0 top-1/2 flex h-12 w-12 -translate-y-1/2 translate-x-1/2 items-center justify-center rounded-full bg-lime-500/80 text-gray-900 transition-all duration-300 hover:bg-lime-500"
-            id="carousel-next"
-          >
-            &gt;
-          </button>
+    <!-- Skills Section -->
+    <section class="rounded-xl bg-gray-900/50 py-24" id="skills">
+      <div class="mb-12 text-center">
+        <h2 class="text-4xl font-bold md:text-5xl">Skills</h2>
+      </div>
+      <div class="mx-auto flex max-w-4xl flex-wrap items-center justify-center gap-x-12 gap-y-10">
+        <div class="group flex flex-col items-center gap-3">
           <div
-            class="absolute -bottom-10 left-1/2 flex -translate-x-1/2 gap-2"
-            id="carousel-dots"
-          >
-            <button
-              aria-label="Go to slide 1"
-              class="h-3 w-3 scale-125 rounded-full bg-lime-400 transition-all duration-300"
-            ></button>
-            <button
-              aria-label="Go to slide 2"
-              class="h-3 w-3 rounded-full bg-gray-600 transition-all duration-300"
-            ></button>
-            <button
-              aria-label="Go to slide 3"
-              class="h-3 w-3 rounded-full bg-gray-600 transition-all duration-300"
-            ></button>
+           class="h-16 w-16 text-gray-400 skills-icons transition-all duration-300 group-hover:scale-110 group-hover:text-lime-400">
+            <i class="fab hover:text-lime-500 fa-laravel"></i>
+          </div>
+          <span
+           class="text-sm font-medium text-gray-400 transition-colors duration-300 group-hover:text-white">Laravel</span>
+        </div>
+        <div class="group flex flex-col items-center gap-3">
+          <div
+           class="h-16 w-16 text-gray-400 skills-icons transition-all duration-300 group-hover:scale-110 group-hover:text-lime-400">
+            <i class="fab hover:text-lime-500 fa-php"></i>
+          </div>
+          <span
+           class="text-sm font-medium text-gray-400 transition-colors duration-300 group-hover:text-white">PHP</span>
+        </div>
+        <div class="group flex flex-col items-center gap-3">
+          <div
+           class="h-16 w-16 text-gray-400 skills-icons transition-all duration-300 group-hover:scale-110 group-hover:text-lime-400">
+            <i class="fab hover:text-lime-500 fa-js"></i>
+          </div>
+          <span
+           class="text-sm font-medium text-gray-400 transition-colors duration-300 group-hover:text-white">JavaScript</span>
+        </div>
+        <div class="group flex flex-col items-center gap-3">
+          <div
+           class="h-16 w-16 text-gray-400 skills-icons transition-all duration-300 group-hover:scale-110 group-hover:text-lime-400">
+            <i class="fab hover:text-lime-500 fa-vuejs"></i>
+          </div>
+          <span
+           class="text-sm font-medium text-gray-400 transition-colors duration-300 group-hover:text-white">Vue.js</span>
+        </div>
+        <div class="group flex flex-col items-center gap-3">
+          <div
+           class="h-16 w-16 text-gray-400 skills-icons transition-all duration-300 group-hover:scale-110 group-hover:text-lime-400">
+            <i class="fab hover:text-lime-500 fa-node"></i>
+          </div>
+          <span
+           class="text-sm font-medium text-gray-400 transition-colors duration-300 group-hover:text-white">Node.js</span>
+        </div>
+        <div class="group flex flex-col items-center gap-3">
+          <div
+           class="h-16 w-16 text-gray-400 skills-icons transition-all duration-300 group-hover:scale-110 group-hover:text-lime-400">
+            <i class="fab hover:text-lime-500 fa-python"></i>
+          </div>
+          <span
+           class="text-sm font-medium text-gray-400 transition-colors duration-300 group-hover:text-white">Python</span>
+        </div>
+        <div class="group flex flex-col items-center gap-3">
+          <div
+           class="h-16 w-16 text-gray-400 skills-icons transition-all duration-300 group-hover:scale-110 group-hover:text-lime-400">
+            <i class="fab hover:text-lime-500 fa-css3-alt"></i>
+          </div>
+          <span
+           class="text-sm font-medium text-gray-400 transition-colors duration-300 group-hover:text-white">CSS3</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-24" id="projects">
+      <div class="mb-12 text-center">
+        <h2 class="text-4xl font-bold md:text-5xl">
+          Recent <span class="text-glow text-lime-400">Projects!</span>
+        </h2>
+      </div>
+      <div class="carousel-container relative mx-auto max-w-4xl">
+        <div class="overflow-hidden rounded-lg shadow-2xl shadow-lime-900/30">
+          <div class="flex" id="carousel-track">
+            <img alt="Ireme Hospitality" class="h-auto w-full flex-shrink-0" src="projects/campuslink/landing.png" />
+            <img alt="Ireme Hospitality" class="h-auto w-full flex-shrink-0"
+             src="projects/ireme-supermarket/ireme-supermarket.png" />
+            <img alt="Data Dashboard" class="h-auto w-full flex-shrink-0" src="projects/UCEP/Landing Page.png" />
+            <img alt="Data Dashboard" class="h-auto w-full flex-shrink-0" src="projects/byuzuye/image.png" />
           </div>
         </div>
-      </section>
-
-      <!-- Contact Section -->
-      <section
-        class="py-24"
-        id="contact"
-      >
-        <div class="mx-auto max-w-3xl text-center">
-          <h2 class="mb-4 text-4xl font-bold md:text-5xl">Get In Touch</h2>
-          <p class="mb-10 text-lg text-gray-400">
-            Get in touch with me for more information about me or leave any
-            testimonial you need to give about me.
-          </p>
-          <form
-            class="space-y-6 text-left"
-            onsubmit="event.preventDefault();"
-          >
-            <div>
-              <label
-                class="mb-2 block text-sm font-medium text-gray-300"
-                for="name"
-                >Name</label
-              >
-              <input
-                class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white transition-shadow focus:outline-none focus:ring-2 focus:ring-lime-500"
-                id="name"
-                placeholder="Name..."
-                type="text"
-              />
-            </div>
-            <div>
-              <label
-                class="mb-2 block text-sm font-medium text-gray-300"
-                for="email"
-                >Email</label
-              >
-              <input
-                class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white transition-shadow focus:outline-none focus:ring-2 focus:ring-lime-500"
-                id="email"
-                placeholder="Email..."
-                type="email"
-              />
-            </div>
-            <div>
-              <label
-                class="mb-2 block text-sm font-medium text-gray-300"
-                for="message"
-                >Message</label
-              >
-              <textarea
-                class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white transition-shadow focus:outline-none focus:ring-2 focus:ring-lime-500"
-                id="message"
-                placeholder="Message..."
-                rows="5"
-              ></textarea>
-            </div>
-            <div class="pt-4 text-center">
-              <button
-                class="lime-glow lime-glow-hover w-full transform rounded-lg bg-lime-500 px-8 py-3 text-lg font-bold text-gray-900 transition-all duration-300 hover:scale-105 hover:bg-lime-400"
-                type="submit"
-              >
-                Submit
-              </button>
-            </div>
-          </form>
+        <button aria-label="Previous project"
+         class="lime-glow-hover absolute left-0 top-1/2 flex h-12 w-12 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-lime-500/80 text-gray-900 transition-all duration-300 hover:bg-lime-500"
+         id="carousel-prev">
+          &lt;
+        </button>
+        <button aria-label="Next project"
+         class="lime-glow-hover absolute right-0 top-1/2 flex h-12 w-12 -translate-y-1/2 translate-x-1/2 items-center justify-center rounded-full bg-lime-500/80 text-gray-900 transition-all duration-300 hover:bg-lime-500"
+         id="carousel-next">
+          &gt;
+        </button>
+        <div class="absolute -bottom-10 left-1/2 flex -translate-x-1/2 gap-2" id="carousel-dots">
+          <button aria-label="Go to slide 1"
+           class="h-3 w-3 scale-125 rounded-full bg-lime-400 transition-all duration-300"></button>
+          <button aria-label="Go to slide 2"
+           class="h-3 w-3 rounded-full bg-gray-600 transition-all duration-300"></button>
+          <button aria-label="Go to slide 3"
+           class="h-3 w-3 rounded-full bg-gray-600 transition-all duration-300"></button>
+          <button aria-label="Go to slide 3"
+           class="h-3 w-3 rounded-full bg-gray-600 transition-all duration-300"></button>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <!-- Footer -->
-    <footer class="border-t border-gray-800 py-6 text-center">
-      <p class="italic text-gray-500">Copyright &copy; 2025 BLAISE</p>
-    </footer>
-    <script src="scripts.js"></script>
-  </body>
+    <!-- Contact Section -->
+    <section class="py-24" id="contact">
+      <div class="mx-auto max-w-3xl text-center">
+        <h2 class="mb-4 text-4xl font-bold md:text-5xl">Get In Touch</h2>
+        <p class="mb-10 text-lg text-gray-400">
+          Get in touch with me for more information about me or leave any
+          testimonial you need to give about me.
+        </p>
+        <form class="space-y-6 text-left" onsubmit="event.preventDefault();">
+          <div>
+            <label class="mb-2 block text-sm font-medium text-gray-300" for="name">Name</label>
+            <input
+             class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white transition-shadow focus:outline-none focus:ring-2 focus:ring-lime-500"
+             id="name" placeholder="Name..." type="text" />
+          </div>
+          <div>
+            <label class="mb-2 block text-sm font-medium text-gray-300" for="email">Email</label>
+            <input
+             class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white transition-shadow focus:outline-none focus:ring-2 focus:ring-lime-500"
+             id="email" placeholder="Email..." type="email" />
+          </div>
+          <div>
+            <label class="mb-2 block text-sm font-medium text-gray-300" for="message">Message</label>
+            <textarea
+             class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white transition-shadow focus:outline-none focus:ring-2 focus:ring-lime-500"
+             id="message" placeholder="Message..." rows="5"></textarea>
+          </div>
+          <div class="pt-4 text-center">
+            <button
+             class="lime-glow lime-glow-hover w-full transform rounded-lg bg-lime-500 px-8 py-3 text-lg font-bold text-gray-900 transition-all duration-300 hover:scale-105 hover:bg-lime-400"
+             type="submit">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-800 py-6 text-center">
+    <p class="italic text-gray-500">Copyright &copy; 2025 BLAISE</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+
 </html>
