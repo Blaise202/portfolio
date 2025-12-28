@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Inbox | Portfolio Messages</title>
+
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --bg: #f4f6f8;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 350px 1fr;
+      height: 100vh;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background: var(--card);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sidebar-header {
+      padding: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .sidebar-header h2 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .message-list {
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .message-item {
+      padding: 15px 20px;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .message-item:hover {
+      background: #f9fafb;
+    }
+
+    .message-item.active {
+      background: #eef2ff;
+      border-left: 4px solid var(--primary);
+    }
+
+    .sender {
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .subject {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 4px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .meta {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 6px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .badge {
+      background: #dcfce7;
+      color: #166534;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 12px;
+    }
+
+    .badge.new {
+      background: #fee2e2;
+      color: #991b1b;
+    }
+
+    /* Content */
+    .content {
+      padding: 30px;
+      overflow-y: auto;
+    }
+
+    .content-card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+      max-width: 900px;
+    }
+
+    .content-header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+    }
+
+    .content-header h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .content-header p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .message-body {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #374151;
+    }
+
+    .actions {
+      margin-top: 30px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .btn {
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn.primary {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn.secondary {
+      background: #e5e7eb;
+      color: #374151;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>Inbox</h2>
+      </div>
+
+      <div class="message-list">
+
+        <div class="message-item active">
+          <div class="sender">John Doe</div>
+          <div class="subject">Interested in collaborating on a project</div>
+          <div class="meta">
+            <span>john@example.com</span>
+            <span class="badge new">New</span>
+          </div>
+        </div>
+
+        <div class="message-item">
+          <div class="sender">Sarah Kim</div>
+          <div class="subject">Frontend Developer Opportunity</div>
+          <div class="meta">
+            <span>sarah@mail.com</span>
+            <span class="badge">Replied</span>
+          </div>
+        </div>
+
+        <div class="message-item">
+          <div class="sender">Michael Ross</div>
+          <div class="subject">Quick Question About Your Portfolio</div>
+          <div class="meta">
+            <span>michael@company.com</span>
+            <span class="badge">Replied</span>
+          </div>
+        </div>
+
+      </div>
+    </aside>
+
+    <!-- Content -->
+    <main class="content">
+      <div class="content-card">
+        <div class="content-header">
+          <h1>Interested in collaborating on a project</h1>
+          <p>From: John Doe — john@example.com</p>
+        </div>
+
+        <div class="message-body">
+          Hello Blaise,<br><br>
+          I came across your portfolio and really liked your backend projects.
+          I’d love to discuss a possible collaboration on an upcoming web
+          application. Let me know if you’re interested.<br><br>
+          Best regards,<br>
+          John
+        </div>
+
+        <div class="actions">
+          <button class="btn primary">Reply</button>
+          <button class="btn secondary">Delete</button>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+</body>
+
+</html>
